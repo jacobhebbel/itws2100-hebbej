@@ -1,0 +1,31 @@
+h2, p {
+    
+}
+
+
+
+h4 {
+    background-color: aqua;
+}
+
+.date {
+    float: right;
+    margin-right: 50px;
+}
+
+.topics{}
+
+.location {
+    float: right;
+    margin-right: 50px;
+    font-style: italic;
+}
+
+img.heading, h1.heading {
+    display: inline;
+}
+
+.contact {
+    display: inline-block;
+}
+
