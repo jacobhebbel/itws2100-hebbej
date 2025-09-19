@@ -13,3 +13,8 @@
 - Chose which sections of my resume (Header, Education, Work Experience, Projects, Technical skills (copied my current resume))
 - Started the CSS to try and tighen things into cohesive groups
 - typed up most of the text content
+
+### 9/19/2025 : 1:01pm
+- Talked with group, used a group CSS format (that follows the hcard system)
+- redid my html to follow this formatting
+- ensured it all validated
