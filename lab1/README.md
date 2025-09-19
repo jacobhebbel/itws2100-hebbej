@@ -18,3 +18,15 @@
 - Talked with group, used a group CSS format (that follows the hcard system)
 - redid my html to follow this formatting
 - ensured it all validated
+
+### Sources on hcard:
+- https://www.dhiwise.com/blog/design-converter/what-are-microformats-key-facts-you-need-to-know
+- https://microformats.org/wiki/hcard
+
+### Biggest struggles:
+- Remembering how to appropriately use flexbox
+- How to responsibly use different css modifiers
+
+### How I overcame them:
+- Religiously went over w3 schools
+- Did smaller practice examples to get the feel of it again
