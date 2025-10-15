@@ -3,14 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beekeeping Almanac</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Busy Bee Productivity</title>
+    <link rel="stylesheet" href="resources/style.css" type="text/css">
 </head>
 <body>
-    <section class="header"></section>
-    <section class="foraging"></section>
-    <section class="blooming"></section>
+    <section class="container" id="header">
+        <div class="title">Busy Bee Productivity</div>
+        <img class="image" src="images/logo.svg" alt="bee logo">
+    </section>
+
+    <section class="container" id="dashboard">
+        <div class="weather">
+            <p id="weatherStatus">weather here</p>
+            <img id="weatherImg" src="#" alt="weather indicator"></div>
+        </div>
+
+        <div class="time">
+            <p id="timeStatus">time here</p>
+        </div>
+    </section>
+
+    <section class="container" id="motivation">
+        <p>Here's a cute fox to help you through your day!</p>
+        <img class="image" id="foxImg" src="#" alt="cute fox">
+    </section>
+
+    <section class="analysis">
+        <p id="activity">activity goes here</p>
+    </section>
+    <script src="resources/scripts.js"></script>
 </body>
 
 <footer>
