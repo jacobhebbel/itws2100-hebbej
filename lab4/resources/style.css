@@ -1,0 +1,105 @@
+:root {
+  --bg: #f5f6fa;
+  --card-bg: #ffffff;
+  --accent: #0078d7;
+  --text: #333;
+  --radius: 12px;
+  --shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
+.subtitle {
+  color: #666;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  width: 90%;
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background-color: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+  text-align: center;
+  transition: background-color 0.4s ease;
+}
+
+/* Button styling */
+button {
+  background-color: var(--accent);
+  color: white;
+  border: none;
+  border-radius: var(--radius);
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+/* Weather backgrounds */
+.weather-sunny { background-color: #ffe680; }
+.weather-cloudy { background-color: #d9d9d9; }
+.weather-rainy { background-color: #a3c4f3; }
+.weather-snowy { background-color: #e0f7ff; }
+.weather-thunder { background-color: #d4c1f0; }
+.weather-foggy { background-color: #e0e0e0; }
+
+/* Joke color will be applied dynamically via JS */
+
+/* Inspiration background */
+#inspire-section {
+  background-color: #c9f7e3;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 1rem;
+}
+
+#weather-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.weather-icon {
+  width: 64px;
+  height: 64px;
+}
