@@ -1,0 +1,60 @@
+[
+    {
+        "name": "Panzerotti",
+        "description": "Sun-dried tomatoes atop sliced mozzarella. Choose fried or cold, and comes with a marinara dip.",
+        "category": "vegetarian",
+        "cuisine": "italian",
+        "img": "",
+        "ingredients": ["sliced tomatoes", "mozzarella"],
+        "price": "$12"
+    }, {
+        "name": "Pizza Margherita",
+        "description": "A beloved classic. Enjoy the traditional taste of the Motherland with locally-sourced herbs baked inside our wood-fire oven",
+        "category": "vegetarian",
+        "cuisine": "italian",
+        "img": "",
+        "ingredients": ["bread", "tomatoes", "basil", "mozzarella cheese"],
+        "price": "$23"
+    }, {
+        "name": "Pinot Noir",
+        "description": "A bold pairing for our pasta dishes. Explore the 'red' notes of the year 1815 (if you get this you took your history seriously).",
+        "category": "vegan",
+        "cuisine": "alcolholics",
+        "img": "",
+        "ingredients": ["red grapes"],
+        "price": "$56"
+    }, {
+        "name": "Penne Arrabbiatta",
+        "description": "Passion on a plate. Our homemade meat sauce will delight and agitate your palette thanks to pepperoncini's imported from Italy.",
+        "category": ["non-vegetarian"],
+        "cuisine": "italian",
+        "img": "",
+        "ingredients": ["sausage", "meat bones", "bread", "basil", "pepperoncinis", "tomatoes"],
+        "price": "$25"
+    }, {
+        "name": "Cacio e Pepe",
+        "description": "Oriechette pasta with our finest Pecorino Romano and toasted peppercorns. Can request for more or less spice.",
+        "category": ["vegetarian"],
+        "cuisine": "italian",
+        "img": "",
+        "ingredients": ["bread", "black peppercorns", "parmesean", "pecorino romano"],
+        "price": "$21"
+    }, {
+        "name": "Zeppole",
+        "description": "Fried dough with powdered sugar. A nostalgic classic for any italian household.",
+        "category": ["vegan"],
+        "cuisine": "italian",
+        "img": "",
+        "ingredients": ["bread", "sugar"],
+        "price": "$8"
+    }, {
+        "name": "Gelato",
+        "description": "Homemade gelato done to bring the intense, savory flavors that you adore. Ask for chocolate, mint, or vanilla.",
+        "category": ["vegetarian"],
+        "cuisine": "italian",
+        "img": "",
+        "ingredients": ["milk", "sugar"],
+        "price": "$12"
+    }
+]
+    
