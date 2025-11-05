@@ -4,45 +4,38 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Il Ristorante</title>
-        <link rel="stylesheet" href="resources/style.css" type="text/css">
+        <link rel="stylesheet" href="resources/css/style.css" type="text/css">
     </head>
     <body>
-        <div class="container menu">
-            <div class="title menu">Menu</div>
-            <div class="items-box menu">
+        <main class="menu">
+            <h2 class="title">Menu</h2>
+            <section class="items">
                 
-                <div class="container food">
-
-                    <div class="container" id="col-left">
-                        <div class="container appetizers">
-                            <div class="title appetizers">Apps</div>
-                            <div class="items-box appetizers">
-                                <div class="item appetizers"></div>
-                            </div>
-                        </div>
-                        <div class="container entrees">
-                            <div class="title entrees">Entrees</div>
-                            <div class="items-box entrees"></div>
-                        </div>
+                <div class="food">
+                    <div class="col">
+                        <section class="course" id="appetizer">
+                            <h3>Appetizers</h3>
+                        </section>
+                        <section class="course" id="pizza">
+                            <h3>Pizza</h3>
+                        </section>
                     </div>
 
-                    <div class="container" id="col-right">
-                        <div class="container entrees">
-                            <div class="title entrees">Entrees</div>
-                            <div class="items-box entrees"></div>
-                        </div>
-                        <div class="container desserts">
-                            <div class="title desserts">Desserts</div>
-                            <div class="items-box desserts"></div>
-                        </div>
+                    <div class="col">
+                        <section class="course" id="pasta">
+                            <h3>Pasta</h3>
+                        </section>
+                        <section class="course" id="dessert">
+                            <h3>Dessert</h3>
+                        </section>
                     </div>
                 </div>
+                <section class="drinks" id="drink">
+                    <h3>Drink Menu</h3>
+                </section>
+            </section>
+        </main>
 
-                <div class="container drink">
-                    <div class="title drink">Wines</div>
-                </div>
-
-            </div>
-        </div>
+        <script src="resources/js/script.js"></script>
     </body>
 </html>

@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    height: 100vw;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+main .title {
+    display: flex;
+    flex: 1;
+
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #73BFB8;
+    border-radius: 50%;
+}
+
+main .items {
+    display: flex;
+    flex-direction: column;
+    flex: 8;
+}
+.food {
+    display: flex;
+    flex: 8;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.col {
+    background-color: #3DA5D9;
+    margin: 20px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.course {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.item-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.vegan, .pic {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+section .drinks {
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+
+    align-items: center;
+    justify-content: space-around;
+}
