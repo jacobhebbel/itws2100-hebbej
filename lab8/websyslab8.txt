@@ -1,0 +1,61 @@
+===Database websyslab8
+
+== Table structure for table courses
+
+|------
+|Column|Type|Null|Default
+|------
+|//**crn**//|int(11)|No|
+|prefix|varchar(4)|No|
+|number|smallint(4)|No|
+|title|varchar(255)|No|
+|year|year(4)|Yes|NULL
+|section|int(10)|Yes|NULL
+== Dumping data for table courses
+
+|1|AAAA|1234|silly|NULL|NULL
+|2|BBBB|2345|billy|NULL|NULL
+|3|CCCC|3456|willy|NULL|NULL
+|4|DDDD|4567|dilly|NULL|NULL
+== Table structure for table grades
+
+|------
+|Column|Type|Null|Default
+|------
+|//**id**//|int(11)|No|
+|crn|int(11)|No|
+|rin|int(11)|No|
+|grade|int(3)|No|
+== Dumping data for table grades
+
+|1|1|1|50
+|2|1|2|60
+|3|1|3|95
+|4|2|1|60
+|5|2|2|85
+|6|3|1|90
+|7|3|2|95
+|8|4|2|60
+|9|4|3|88
+|10|4|4|98
+== Table structure for table students
+
+|------
+|Column|Type|Null|Default
+|------
+|//**rin**//|int(9)|No|
+|rcsID|char(7)|No|
+|first name|varchar(100)|No|
+|last name|varchar(100)|No|
+|alias|varchar(100)|No|
+|phone|int(10)|No|
+|street|varchar(255)|Yes|NULL
+|city|varchar(255)|Yes|NULL
+|zip|int(5)|Yes|NULL
+|state|char(2)|Yes|NULL
+== Dumping data for table students
+
+|1|1|a|a|a|1|NULL|NULL|NULL|NULL
+|2|2|b|b|b|2|NULL|NULL|NULL|NULL
+|3|3|c|c|c|3|NULL|NULL|NULL|NULL
+|4|4|d|d|d|4|NULL|NULL|NULL|NULL
